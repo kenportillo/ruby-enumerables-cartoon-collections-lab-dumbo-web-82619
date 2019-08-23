@@ -33,7 +33,7 @@ def find_the_cheese(array) #code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0 
-  if array.any? {|i| i = array}
+  if array.find? {|i| }
   
   else
     return nil
