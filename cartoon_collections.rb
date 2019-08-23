@@ -35,8 +35,7 @@ def find_the_cheese(array) #code an argument here
   i = 0 
   if array.find {|i| i == "cheddar" and i == "gouda"}
     return array[i]
-  else
-    return nil
   i += 1 
   end 
+  return nil 
 end
