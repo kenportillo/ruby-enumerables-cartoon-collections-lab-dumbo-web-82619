@@ -38,5 +38,5 @@ def find_the_cheese(array) #code an argument here
     end 
   i += 1 
   end
-  return nil 
+  r
 end
