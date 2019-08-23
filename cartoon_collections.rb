@@ -35,8 +35,10 @@ def find_the_cheese(array) #code an argument here
   i = 0 
   while i < array.length do 
     if array.find {|i| i == "cheddar" and i == "gouda"}
+    else 
+      return nil 
     end 
   i += 1 
   end
-  r
+  
 end
